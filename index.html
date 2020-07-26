@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Rubik:300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="mobile.css"
+      media="screen and (max-width: 768px)"
+    />
+    <title>Frontend Mentor | Chat App UI</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="background-left"></div>
+      <div class="background-right"></div>
+      <div class="wrapper">
+        <div class="left-box">
+          <div class="mobile">
+            <div class="mobile-inner">
+              <div class="upper-section">
+                <div class="notch"></div>
+                <div class="profile-section">
+                  <ion-icon
+                    name="chevron-back-outline"
+                    class="back-arrow"
+                  ></ion-icon>
+                  <img
+                    src="./images/avatar.jpg"
+                    alt="Samuel Green Display Picture"
+                    class="dp-img"
+                  />
+                  <div>
+                    <span>Samuel Green</span>
+                    <span>Available to Walk</span>
+                  </div>
+                  <img src="./images/menu.svg" alt="menu" class="menu" />
+                </div>
+              </div>
+              <div class="chat-box">
+                <div class="message message-received message1">
+                  That sounds great. I’d be happy with that.
+                </div>
+                <div class="message message-received message2">
+                  Could you send over some pictures of your dog, please?
+                </div>
+                <div class="images">
+                  <img
+                    src="./images/dog-image-1.jpg"
+                    alt="Dog-1"
+                    class="message3"
+                  />
+                  <img
+                    src="./images/dog-image-2.jpg"
+                    alt="Dog-2"
+                    class="message4"
+                  />
+                  <img
+                    src="./images/dog-image-3.jpg"
+                    alt="Dog-3"
+                    class="message5"
+                  />
+                </div>
+                <div class="message message-sent message6">
+                  Here are a few pictures. She’s a happy girl!
+                </div>
+                <div class="message message-sent msg-short-sent message7">
+                  Can you make it?
+                </div>
+                <div
+                  class="message message-received msg-short-received message8"
+                >
+                  She looks so happy! The time we discussed works. How long
+                  shall I take her out for?
+                </div>
+
+                <div class="message message-received radio message9">
+                  <div>
+                    <input
+                      type="radio"
+                      name="select"
+                      id="30min"
+                      class="radio__input"
+                    />
+                    <div class="radio__radio"></div>
+                    <label for="30min" class="radio__label"
+                      >30 minute walk</label
+                    >
+                  </div>
+                  <span>$29</span>
+                </div>
+                <div class="message message-received radio message10">
+                  <div>
+                    <input
+                      type="radio"
+                      name="select"
+                      id="1hr"
+                      class="radio__input"
+                    />
+                    <div class="radio__radio" id="1hr"></div>
+                    <label for="1hr" class="radio__label">1 hour walk</label>
+                  </div>
+                  <span>$49</span>
+                </div>
+
+                <div class="type-message">
+                  <input
+                    type="text"
+                    class="message-box"
+                    name="type message here"
+                    placeholder="Type a message…"
+                  />
+                  <ion-icon
+                    name="chevron-forward-circle"
+                    class="send-button"
+                  ></ion-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right-box">
+          <div class="content">
+            <h1 class="right-box__heading">Simple booking</h1>
+            <p class="right-box__para">
+              Stay in touch with our dog walkers through the chat interface.
+              This makes it easy to discuss arrangements and make bookings. Once
+              the walk has been completed you can rate your walker and book
+              again all through the chat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+  </body>
+</html>

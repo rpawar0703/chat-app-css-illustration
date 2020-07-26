@@ -1,0 +1,45 @@
+.background-left {
+  height: 70%;
+  width: 100%;
+  left: -55%;
+}
+
+.background-right {
+  height: 65%;
+  width: 350px;
+}
+
+.wrapper {
+  flex-direction: column;
+}
+
+.left-box {
+  width: 100%;
+  margin-top: 3em;
+}
+
+.mobile {
+  margin: 0 auto;
+}
+
+.right-box {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.content {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.right-box__heading {
+  font-size: 2.5rem;
+}
+
+.right-box__para {
+  padding: 0 1em;
+  line-height: 1.6;
+}
